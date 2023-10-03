@@ -2,7 +2,7 @@ pkgload::load_all()
 
 df_esus <- esus()
 
-writexl::write_xlsx(df_esus, "inst/planilha_esus.xlsx")
+writexl::write_xlsx(df_esus, "inst/planilha_gal.xlsx")
 
 commit_message <- paste0("", Sys.time())
 
