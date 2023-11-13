@@ -9,12 +9,12 @@ googlesheets4::gs4_deauth()
 
 lacen <- read_sheet("120iSBaMBpMIf6NI3d2azx-zXokBHa_9qd-yX4CGw-Cs")
 
-lacen<-distinct(lacen)
+#lacen<-distinct(lacen)
 
 
 fio <- read_sheet("1WzHQ-7GIwYeFuForFQ7a2GS3nhNaHh4T86SIwzhGGr0")
 
-fio<-distinct(fio)
+#fio<-distinct(fio)
 
 ##deixando os dois bancos (lacen e fiocruz) com o campo de resultado conm o mesmo nome: Resultado, para unir as bases
 ### e filtrando somente os campos exame liberado e resultados positivos, negativos e inconclusivos 
